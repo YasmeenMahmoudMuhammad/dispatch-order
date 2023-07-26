@@ -64,7 +64,7 @@
 
     </div>
 </div>
-<button class="deliveryLocation">
+<button class="deliveryLocation" >
     Set Delivery location
 </button>
 <div class="payment">
@@ -85,20 +85,22 @@
       </mat-radio-group>
 </div>
 <div class="orderPrice">
-    <div class="row-details">
-        <div class="row" style="display: flex ;align-items:center;">
-            <div class="col-4">
-                <h5>Order price:</h5>
-                <h5>Delivery Fees</h5>
-            </div>
-            <div class="col-8">
-                <h5>{{finalTotal }} SAR</h5>
-                <h5>{{deliveryFee}} SAR</h5>
-            </div>
+    <div class="row" style="padding: 16px;">
+        <div class="row">
+            <h5  class="col-5">Order price:</h5>
+            <h5   class="col-7" style="font-size: 16px; font-weight: bold;direction: rtl;"> SAR {{finalTotal }}</h5>
+        </div>
+        <div class="row">
+            <h5  class="col-5">Delivery fee:</h5>
+            <h5   class="col-7" style="direction: rtl;">SAR {{deliveryFee}} </h5>
         </div>
     </div>
     <div class="row totalPrice">
         <h2  class="col-5">Total Amount</h2>
         <a  class="col-7">Set location First</a>
     </div>
+</div>
+<div class="check">
+    <button disabled class="confirm">Confirm</button>
+    <button class="cancel">Cancel</button>
 </div>

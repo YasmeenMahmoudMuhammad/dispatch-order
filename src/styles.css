@@ -171,17 +171,21 @@ color: #6C6C6C;
 .orderPrice{
     margin: 12px 17px;
     background-color: #fff;
-    padding: 16px;
     width: 344px;
     border-radius: 5px;
 }
-.orderPrice h5{
+.orderPrice h5 ,.orderPrice span{
     font-size: 14px;
+    font-weight: 500;
+
 }
 .totalPrice{
     background-color: #31AF67;
     color: #fff;
     padding: 16px 17px;
+    margin-top: 16px !important;
+    --bs-gutter-x: 0 !important;
+    border-radius: 0px 0px 5px 5px;
 }
 .totalPrice h2{
     font-size: 18px;
@@ -192,4 +196,29 @@ color: #6C6C6C;
     direction: rtl;
     text-decoration: none;
     color: #FFFFFF;
+}
+.check{
+    background-color: #fff;
+    width: fit-content;
+
+}
+.cancel{
+    margin: 0px 17px;
+    background-color: #fff;
+    color: #FD613A;
+    border: solid 1px #FD613A;
+    padding: 16px;
+    width: 344px;
+    border-radius: 5px;
+}
+
+.confirm{
+    padding: 16px;
+    margin: 16px 17px 8px 17px;
+    background-color: #A0A0A0;
+    color: #fff;
+    padding: 16px;
+    width: 344px;
+    border: none;
+    border-radius: 5px;
 }
