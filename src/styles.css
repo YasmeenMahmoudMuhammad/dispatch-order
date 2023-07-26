@@ -1,1 +1,195 @@
-/* You can add global styles to this file, and also import other style files */
+html, body { height: 100%; }
+body {
+margin: 0; font-family: 'Lato', "Helvetica Neue", sans-serif; 
+background-color: #F5F5F5 !important;
+}
+.introduction{
+height: 241px;
+width: 375px;
+padding-top: 66px;
+padding-left: 22px;
+background-color: #FFFFFF;
+}
+.appLink{
+    height: 44.46px;
+width: 150.04px;
+background-color: #000000;
+color: #FFFFFF;
+margin-right: 15px;
+border-radius: 5px;
+}
+.appLink img{
+    max-width: 100%;
+    max-height: 100%;
+    /* padding: 7px 0px; */
+height: 100%;
+}
+.appLink a{
+    color: #fff;
+    font-size: 7px;
+    text-decoration: none;
+    height: -webkit-fill-available;
+}
+.appLink p{
+    margin-bottom: 0%;
+}
+h1{
+font-size: 27px;
+color: rgba(57, 57, 57, 1);
+margin: 0px !important;
+}
+.title p{
+margin-top: 15px;
+margin-bottom: 4px;
+font-size: 14px;
+font-weight:500;
+color: #6C6C6C;
+}
+.appContainer{
+    padding-left: 12px;
+
+}
+.aboutStore{
+    margin: 12px 17px;
+    background-color: #fff;
+    padding: 16px;
+    width: 344px;
+    border: solid 1px #FD613A;
+    border-radius: 5px;
+}
+.store{
+    border-bottom: solid 1px #A3A3A3;
+    padding-bottom: 10px;
+    padding-left: 15px;
+}
+.store rmx-icon{
+    display: inline-block;
+    width: 16px;
+    margin-left: 8px;
+}
+.store rmx-icon svg{
+    vertical-align: unset;
+}
+.store section , .store h2{
+    display: inline-block;
+}
+.store img{
+    max-width: 100%;
+}
+.aboutStore h2 , .schedule h2{
+    color: #393939;
+    font-size: 16px;
+    font-weight: bold;
+}
+.storeDetails{
+    margin-top: 12px;
+
+}
+.schedule{
+    margin: 12px 17px;
+    background-color: #fff;
+    padding: 16px;
+    width: 344px;
+    border-radius: 5px;
+}
+.schedule rmx-icon{
+    display: inline-block;
+    width: 16px;
+    margin-right: 8px;
+}
+.deliveryLocation{
+    margin: 0px 17px;
+    background-color: #FFEFEB;
+    color: #FD613A;
+    border: solid 1px #FD613A;
+    padding: 16px;
+    width: 344px;
+    border-radius: 5px;
+}
+.payment{
+    margin: 12px 17px;
+    background-color: #fff;
+    padding: 16px;
+    width: 344px;
+    border-radius: 5px;
+}
+.payment img{
+    float: right;
+
+}
+.matRadio{
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;
+    align-items: flex-start;
+}
+.matRadio mat-radio-button{
+    border: solid 1px #D9D9D9;
+    margin: 4.5px 16px;
+    border-radius: 5px;
+    width: -webkit-fill-available;
+}
+.mat-mdc-radio-button.mat-accent{
+    --mdc-radio-selected-focus-icon-color: #FD613A;
+    --mdc-radio-selected-hover-icon-color: #FD613A;
+    --mdc-radio-selected-icon-color: #FD613A;
+    --mdc-radio-selected-pressed-icon-color: #FD613A;
+    --mat-mdc-radio-checked-ripple-color: #FD613A;
+
+}
+.mdc-form-field {
+    display: inline-flex;
+    align-items: flex-start !important;
+    vertical-align: middle;
+}
+
+.payment label {
+    display: inline-block;
+    margin-top: 5px;
+}
+.schedule .mat-button-toggle-group-appearance-standard {
+    border:none !important;
+}
+.mat-button-toggle-checked.mat-button-toggle-appearance-standard {
+    color: #FFFFFF;
+}
+.mat-button-toggle-checked {
+    background-color: #F36845;
+    color: #FFFFFF;
+}
+
+.schedule .mat-button-toggle-group-appearance-standard {
+    border-radius: 5px;
+}
+.schedule .mat-button-toggle-standalone, .mat-button-toggle-group {
+    height: 32px;
+    align-items: center;
+}
+.schedule .mat-button-toggle-disabled.mat-button-toggle-appearance-standard {
+    background: #F7F7F7;
+}
+.orderPrice{
+    margin: 12px 17px;
+    background-color: #fff;
+    padding: 16px;
+    width: 344px;
+    border-radius: 5px;
+}
+.orderPrice h5{
+    font-size: 14px;
+}
+.totalPrice{
+    background-color: #31AF67;
+    color: #fff;
+    padding: 16px 17px;
+}
+.totalPrice h2{
+    font-size: 18px;
+    font-weight: bold;
+    padding: 0px;
+}
+.totalPrice a{
+    direction: rtl;
+    text-decoration: none;
+    color: #FFFFFF;
+}
