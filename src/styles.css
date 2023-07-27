@@ -4,11 +4,8 @@ margin: 0; font-family: 'Lato', "Helvetica Neue", sans-serif;
 background-color: #F5F5F5 !important;
 }
 .introduction{
-height: 241px;
-width: 375px;
-padding-top: 66px;
-padding-left: 22px;
-background-color: #FFFFFF;
+    background-color: #FFFFFF;
+    padding: 66px 22px 16px;
 }
 .appLink{
     height: 44.46px;
@@ -53,7 +50,7 @@ color: #6C6C6C;
     margin: 12px 17px;
     background-color: #fff;
     padding: 16px;
-    width: 344px;
+    /* width: 344px; */
     border: solid 1px #FD613A;
     border-radius: 5px;
 }
@@ -89,7 +86,7 @@ color: #6C6C6C;
     margin: 12px 17px;
     background-color: #fff;
     padding: 16px;
-    width: 344px;
+    /* width: 344px; */
     border-radius: 5px;
 }
 .schedule rmx-icon{
@@ -97,25 +94,25 @@ color: #6C6C6C;
     width: 16px;
     margin-right: 8px;
 }
-.deliveryLocation{
-    margin: 0px 17px;
-    background-color: #FFEFEB;
+.deliveryLocation {
+    background-color: #fff;
     color: #FD613A;
-    border: solid 1px #FD613A;
+    border: none;
     padding: 16px;
     width: 344px;
     border-radius: 5px;
+}
+.deliveryLocation rmx-icon{
+    float: right;
 }
 .payment{
     margin: 12px 17px;
     background-color: #fff;
     padding: 16px;
-    width: 344px;
     border-radius: 5px;
 }
-.payment img{
+.float-right{
     float: right;
-
 }
 .matRadio{
     display: flex;
@@ -171,7 +168,6 @@ color: #6C6C6C;
 .orderPrice{
     margin: 12px 17px;
     background-color: #fff;
-    width: 344px;
     border-radius: 5px;
 }
 .orderPrice h5 ,.orderPrice span{
@@ -199,26 +195,23 @@ color: #6C6C6C;
 }
 .check{
     background-color: #fff;
-    width: fit-content;
+    padding: 17px;
 
 }
 .cancel{
-    margin: 0px 17px;
     background-color: #fff;
     color: #FD613A;
     border: solid 1px #FD613A;
     padding: 16px;
-    width: 344px;
     border-radius: 5px;
 }
 
 .confirm{
     padding: 16px;
-    margin: 16px 17px 8px 17px;
+    margin-bottom: 8px;
     background-color: #A0A0A0;
     color: #fff;
     padding: 16px;
-    width: 344px;
     border: none;
     border-radius: 5px;
 }
