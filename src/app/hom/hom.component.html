@@ -54,11 +54,15 @@
 
             </div>
         </div>
-        <div class="row mx-3">
-            <button class="deliveryLocation text-start" >
-                Set Delivery location
+        <div class="row mx-3 deliveryLocation">
+            <a class=" text-start" >
+                Delivery location
                 <rmx-icon class="d-inline-block" name="arrow-right-s-line"></rmx-icon>
-            </button>
+            </a>
+            <div *ngIf="setLocation">
+                <hr>
+                <p>{{setLocationAdress}}</p>
+            </div>
         </div>
 
         <div class="payment">
