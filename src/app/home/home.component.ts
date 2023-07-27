@@ -1,11 +1,11 @@
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'app-hom',
-  templateUrl: './hom.component.html',
-  styleUrls: ['./hom.component.css']
+  selector: 'app-home',
+  templateUrl: './home.component.html',
+  styleUrls: ['./home.component.css']
 })
-export class HomComponent {
+export class HomeComponent {
 rating:number =4.8;
 finalTotal :number =250;
 deliveryFee = '---';

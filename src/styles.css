@@ -1,7 +1,7 @@
 html, body { height: 100%; }
 body {
 margin: 0; font-family: 'Lato', "Helvetica Neue", sans-serif; 
-background-color: #F5F5F5 !important;
+background-color: #ffff !important;
 }
 .introduction{
     background-color: #FFFFFF;
@@ -22,7 +22,7 @@ font-size: 14px;
 font-weight:500;
 color: #6C6C6C;
 }
-.aboutStore{
+.aboutStore , .timer{
     margin: 12px 17px;
     background-color: #fff;
     padding: 16px;
@@ -195,4 +195,32 @@ color: #6C6C6C;
     padding: 16px;
     border: none;
     border-radius: 5px;
+}
+.expiredScreen{
+    position: absolute;
+    top: 50%;
+    
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.expiredScreen span ,.expectedTime span{
+    font-size: 24px;
+    color: #393939;
+}
+.expire{
+    color: #FF5A5A !important;
+    font-weight: 500 !important;
+}
+.download {
+    margin: 24px 0px 13px 0px !important;
+    font-size: 18px;
+    color: #525252;
+}
+.timer p{
+    font-size: 18px;
+    font-weight: 500;
+}
+.timer span{
+    font-size: 28px;
+    font-weight: 500;
 }
