@@ -7,8 +7,10 @@ background-color: #F5F5F5 !important;
     background-color: #FFFFFF;
     padding: 66px 22px 16px;
 }
-
-h1{
+.row {
+     --bs-gutter-x: 0 !important;
+    }
+.title h1{
 font-size: 27px;
 color: rgba(57, 57, 57, 1);
 margin: 0px !important;
@@ -19,10 +21,6 @@ margin-bottom: 4px;
 font-size: 14px;
 font-weight:500;
 color: #6C6C6C;
-}
-.appContainer{
-    padding-left: 12px;
-
 }
 .aboutStore{
     margin: 12px 17px;
